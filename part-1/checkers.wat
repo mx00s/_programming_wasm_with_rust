@@ -11,6 +11,9 @@
   ;; Q3: How exactly are expressions converted back-and-forth between prefix
   ;; (Lisp) and postfix (Forth) syntax? Order must matter for non-commutative
   ;; binary operations like i32.sub, for instance.
+
+  ;; Q8: What are the arithmetic overflow semantics in WASM, and what's the
+  ;; best practice to check for overflow?
   (func $indexForPosition (param $x i32) (param $y i32) (result i32)
     (i32.add
       (i32.mul
