@@ -1,6 +1,12 @@
+// Q9: What other languages support calling functions in a WASM
+// module, and how is it done?
 fetch("./checkers.wasm").then(response =>
     response.arrayBuffer()
 ).then(bytes => WebAssembly.instantiate(bytes)
+// Q10: Can a WASM module generate WASM bytes which can be dynamically
+// interpreted by a subsequent `WebAssembly.instantiate` call?
+
+// Q11: If Q10, is there a WASM assembler that runs as a WASM module?
 ).then(results => {
     console.log("Loaded wasm module");
     instance = results.instance;
