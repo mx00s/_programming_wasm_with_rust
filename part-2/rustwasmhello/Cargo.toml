@@ -1,0 +1,10 @@
+[package]
+name = "rustwasmhello"
+version = "0.1.0"
+authors = ["Sage Mitchell <dev@mx00s.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
