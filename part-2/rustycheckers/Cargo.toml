@@ -1,0 +1,12 @@
+[package]
+name = "rustycheckers"
+version = "0.1.0"
+authors = ["Sage Mitchell <dev@mx00s.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies] # TODO: update deps
+mut_static = "5.0.0"
+lazy_static = "1.0.2"
