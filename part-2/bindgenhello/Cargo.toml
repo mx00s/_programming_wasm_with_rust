@@ -1,0 +1,11 @@
+[package]
+name = "bindgenhello"
+version = "0.1.0"
+authors = ["Sage Mitchell <dev@mx00s.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies] # TODO: upgrade deps
+wasm-bindgen = "0.2"
