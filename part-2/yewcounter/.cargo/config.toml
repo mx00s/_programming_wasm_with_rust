@@ -1,0 +1,3 @@
+[alias]
+b = "web build --target=wasm32-unknown-unknown"
+s = "web start --target=wasm32-unknown-unknown"
