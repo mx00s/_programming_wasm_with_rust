@@ -1,0 +1,1 @@
+The book's implementation differs somewhat from what's in the source code zip on the [publisher's page](https://pragprog.com/titles/khrust/programming-webassembly-with-rust/). I was able to get it working, and suggest starting there. Reading the chapter is still helpful to digest what's happening conceptually.
